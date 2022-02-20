@@ -1,2 +1,2 @@
-# Investimentus
-Projeto que visa caminhar junto com o meu ganho de conhecimento no mercado financeiro, assim podendo aplicar em forma de calculadora de juros e outros mecanismos para me auxiliar durante a minha tomada de decisão para investir o meu dinheiro
+# Construindo novos hábitos
+Esse repositório visa caminhar junto com a minha meta pessoal de conquistar novos hábitos e um deles é ser mais assíduo por aqui (ter mais commits), criando um app que registre essa evolução no código
