@@ -4,7 +4,14 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Daily Habits, funções inicias:
+        -pomodoro timer  (50min FOCO e 10min DESCANSO)
+        -task list
+        -calendario/agenda
+        -notificação/push ups
+        -vloqueador de acesso a apps
+        -despertador
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
