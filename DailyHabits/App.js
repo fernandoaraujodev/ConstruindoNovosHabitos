@@ -1,19 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet} from 'react-native';
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import Tasks from "./src/pages/Tasks/";
+
+const Stack = createStackNavigator()
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Daily Habits, funções inicias:
-        -pomodoro timer  (50min FOCO e 10min DESCANSO)
-        -task list
-        -calendario/agenda
-        -notificação/push ups
-        -vloqueador de acesso a apps
-        -despertador
-      </Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName = "Tasks">
+        <Stack.Screen 
+          name="Tasks"
+          component={Tasks}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
